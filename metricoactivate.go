@@ -3,7 +3,7 @@
 package metricoactivate
 
 /*
-#cgo CFLAGS: -I . -I dynamic"
+#cgo CFLAGS: -I . -I dynamic
 #cgo LDFLAGS: -L . -L .. -L dynamic -lTurboActivate
 
 //export CGO_LDFLAGS = -L . -L .. -lTurboActivate
