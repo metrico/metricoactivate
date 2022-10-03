@@ -1,3 +1,3 @@
-module github.com/metrico/turboactivate
+module github.com/metrico/metricoactivate
 
 go 1.18
