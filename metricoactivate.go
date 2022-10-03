@@ -7,9 +7,9 @@ package metricoactivate
 
 /*
 #cgo CFLAGS: -I . -I static
-#cgo LDFLAGS: -L . -L .. -lrt -pthread -lstdc++ ${SRCDIR}/static/libTurboActivate.a
+#cgo LDFLAGS: -L . -L .. ${SRCDIR}/static/libTurboActivate.a -lrt -pthread -lstdc++
 
-//export CGO_LDFLAGS = -L . -L .. -lTurboActivate
+//export CGO_LDFLAGS = -L . -L .. ${SRCDIR}/static/libTurboActivate.a -lrt -pthread -lstdc++
 
 #include <stdlib.h>
 #include "TurboActivate.h"
