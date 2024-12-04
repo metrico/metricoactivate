@@ -1,13 +1,13 @@
 // Copyright 2018 wyDay, LLC. All rights reserved.
 
-//go:build !static && amd64
-// +build !static,amd64
+//go:build !static && arm64
+// +build !static,arm64
 
 package metricoactivate
 
 /*
 #cgo CFLAGS: -I . -I dynamic
-#cgo LDFLAGS: -L . -L .. -L dynamic -lTurboActivate
+#cgo LDFLAGS: -L . -L .. -L dynamic/aarch64 -lTurboActivate
 
 //export CGO_LDFLAGS = -L . -L .. -lTurboActivate
 
