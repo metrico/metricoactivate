@@ -6,10 +6,10 @@
 package metricoactivate
 
 /*
-#cgo CFLAGS: -I . -I dynamic
-#cgo LDFLAGS: -L . -L .. -L dynamic -lTurboActivate
+#cgo CFLAGS: -I${SRCDIR}/dynamic
+#cgo LDFLAGS: -L${SRCDIR}/dynamic -lTurboActivate
 
-//export CGO_LDFLAGS = -L . -L .. -lTurboActivate
+//export CGO_LDFLAGS = -L${SRCDIR}/dynamic -lTurboActivate
 
 #include <stdlib.h>
 #include "TurboActivate.h"
